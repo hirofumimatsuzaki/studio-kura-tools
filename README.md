@@ -1,6 +1,6 @@
 # Studio Kura Tools
 
-Studio Kura Tools is a minimal Next.js portal for internal operations, exhibition preparation, and artist workflows.
+Studio Kura Tools is a minimal static portal for internal operations, exhibition preparation, and artist workflows.
 
 ## Included tools
 
@@ -8,9 +8,12 @@ Studio Kura Tools is a minimal Next.js portal for internal operations, exhibitio
 - Exhibition Post Generator
 - Exhibition Caption Tool
 
-## Development
+## Structure
 
-```bash
-npm install
-npm run dev
-```
+- `index.html`
+- `styles.css`
+- `main.js`
+
+## Publishing
+
+This repository is designed to work directly with GitHub Pages as a static site.

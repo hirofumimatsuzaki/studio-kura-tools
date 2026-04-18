@@ -42,12 +42,10 @@ a {
   width: min(calc(100% - 48px), var(--content-width));
   margin: 0 auto;
   padding: 56px 0 72px;
-  display: grid;
-  gap: 28px;
 }
 
 .hero {
-  padding: 8px 0 12px;
+  padding: 8px 0 40px;
 }
 
 .eyebrow {
@@ -74,6 +72,11 @@ a {
   color: var(--text-soft);
   font-size: 1.02rem;
   line-height: 1.7;
+}
+
+.content {
+  display: grid;
+  gap: 28px;
 }
 
 .section {
@@ -234,7 +237,7 @@ a {
   }
 
   .hero {
-    padding-bottom: 4px;
+    padding-bottom: 28px;
   }
 
   .hero h1 {
