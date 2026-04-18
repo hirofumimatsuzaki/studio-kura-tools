@@ -1,4 +1,4 @@
-const tools = [
+const coreTools = [
   {
     name: "Artist & Residence Registration",
     href: "https://script.google.com/a/macros/studiokura.com/s/AKfycbwWGmeLH7Jk7S1wRLpUHfaMmfdW9X6bSNHXvICK9MQz8TjduGz3xZC0j-HCOSbbq7A3/exec",
@@ -15,6 +15,14 @@ const tools = [
     name: "Exhibition Caption Tool",
     href: "https://hirofumimatsuzaki.github.io/exhibition-caption-tool/",
     description: "Prepare and format exhibition captions for printing."
+  }
+];
+
+const dailyTools = [
+  {
+    name: "Mini Task",
+    href: "https://hirofumimatsuzaki.github.io/minitask/",
+    description: "Manage small day-to-day tasks in a lightweight, focused interface."
   }
 ];
 
@@ -68,8 +76,10 @@ function renderCards(items, target, renderer) {
   });
 }
 
-const toolGrid = document.querySelector("#tool-grid");
+const coreToolsGrid = document.querySelector("#core-tools-grid");
+const dailyToolsGrid = document.querySelector("#daily-tools-grid");
 const comingSoonGrid = document.querySelector("#coming-soon-grid");
 
-renderCards(tools, toolGrid, createToolCard);
+renderCards(coreTools, coreToolsGrid, createToolCard);
+renderCards(dailyTools, dailyToolsGrid, createToolCard);
 renderCards(upcomingTools, comingSoonGrid, createComingSoonCard);
