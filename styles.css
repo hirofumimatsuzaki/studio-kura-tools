@@ -75,6 +75,10 @@ a {
 }
 
 .content {
+  display: block;
+}
+
+#tool-sections {
   display: grid;
   gap: 28px;
 }
@@ -175,6 +179,13 @@ a {
   line-height: 1.2;
   letter-spacing: -0.03em;
   font-weight: 600;
+}
+
+.card-title-sub {
+  margin: -4px 0 0;
+  color: var(--text-soft);
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 .card-description {
