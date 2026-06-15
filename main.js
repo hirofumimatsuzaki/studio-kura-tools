@@ -21,7 +21,7 @@ const coreTools = [
 const dailyTools = [
   {
     name: "Mini Task",
-    href: "https://hirofumimatsuzaki.github.io/minitask/",
+    href: "https://minitask-7bbb5.firebaseapp.com/",
     description: "Manage small day-to-day tasks in a lightweight, focused interface."
   }
 ];
