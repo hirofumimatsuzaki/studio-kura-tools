@@ -15,6 +15,11 @@ const coreTools = [
     name: "Exhibition Caption Tool",
     href: "https://hirofumimatsuzaki.github.io/exhibition-caption-tool/",
     description: "Prepare and format exhibition captions for printing."
+  },
+  {
+    name: "Artist Database",
+    href: "https://hirofumimatsuzaki.github.io/VisualizingKura/",
+    description: "Browse and visualize artist information for Studio Kura records."
   }
 ];
 
@@ -28,7 +33,6 @@ const dailyTools = [
 
 const upcomingTools = [
   "Mail Reply Assistant",
-  "Artist Database",
   "Residency Workflow",
   "Exhibition Archive"
 ];
