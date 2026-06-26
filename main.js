@@ -12,6 +12,14 @@ const sections = [
         status: "利用できます",
         description:
           "日々の改善アイデア、Annaへの整理依頼、Codexへの実装依頼を管理するツール。"
+      },
+      {
+        name: "Place Team Planner",
+        nameJa: "チーム配置プランナー",
+        href: "https://minitask-7bbb5.firebaseapp.com/place-team-planner.html",
+        status: "利用できます",
+        description:
+          "チームの配置や担当を整理し、現場の作業計画を確認するためのツール。"
       }
     ]
   },
