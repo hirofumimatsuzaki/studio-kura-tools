@@ -15,7 +15,7 @@ const sections = [
       },
       {
         name: "Place Team Planner",
-        nameJa: "チーム配置プランナー",
+        nameJa: "拠点チームプランナー",
         href: "https://minitask-7bbb5.firebaseapp.com/place-team-planner.html",
         status: "利用できます",
         description:
