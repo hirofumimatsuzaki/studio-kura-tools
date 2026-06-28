@@ -11,7 +11,7 @@
   --accent: #171717;
   --accent-contrast: #ffffff;
   --radius-lg: 20px;
-  --content-width: 1120px;
+  --content-width: 1520px;
 }
 
 * {
@@ -118,13 +118,12 @@ a {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   gap: 18px;
 }
 
 .tool-card,
 .coming-soon-card {
-  grid-column: span 4;
   display: grid;
   gap: 18px;
   min-height: 240px;
