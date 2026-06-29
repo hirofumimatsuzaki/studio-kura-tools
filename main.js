@@ -16,7 +16,7 @@ const sections = [
       {
         name: "Place Team Planner",
         nameJa: "拠点チームプランナー",
-        href: "https://minitask-7bbb5.firebaseapp.com/place-team-planner.html",
+        href: "https://studio-kura-place-team.web.app/",
         status: "利用できます",
         description:
           "チームの配置や担当を整理し、現場の作業計画を確認するためのツール。"
